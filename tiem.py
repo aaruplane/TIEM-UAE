@@ -274,7 +274,7 @@ with st.expander(
 
   st.dataframe(simulation_db, use_container_width=True)
 
-st.markdown("###Scientific Methodology: Mass-Balance Optimization Bounds")
+st.markdown("Scientific Methodology: Mass-Balance Optimization Bounds")
 st.markdown(
     "To respect industrial thermodynamics and process chemistry, the"
     " simulation model limits maximum combined optimization to **~20%** at full"
